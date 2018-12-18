@@ -1,0 +1,14 @@
+.vs/
+IdentityServer/bin
+IdentityServer/obj
+IdentityServer/Properties/PublishProfiles/
+IdentityServer/wwwroot/lib/
+IdentityServer/tempkey.rsa
+App1/ApiTest1/bin
+App1/ApiTest1/obj
+App1/ApiTest1/Properties/PublishProfiles/
+App1/AngularClient1/bin/
+App1/AngularClient1/obj/
+App1/AngularClient1/Properties/PublishProfiles/
+App2/ApiTest2/bin/
+App2/ApiTest2/obj/

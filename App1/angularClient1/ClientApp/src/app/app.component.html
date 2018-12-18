@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  
+  <div *ngIf="!isAuthorized">
+    <button (click)="login()">Login</button>
+    <button (click)="loginInternal()">Login Internal</button>
+  </div>
+  <div *ngIf="isAuthorized"><button (click)="logout()">Logout</button></div>
+</div>
+<ul>
+  <li>
+    <h2><a rel="noopener" routerLink="/home">Home</a></h2>
+  </li>
+  <li>
+    <h2><a rel="noopener" routerLink="/identity">API</a></h2>
+  </li>
+</ul>
+
+
+<router-outlet></router-outlet>
+

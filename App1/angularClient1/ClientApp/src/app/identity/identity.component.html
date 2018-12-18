@@ -1,0 +1,8 @@
+<div>Welcome to App 1</div>
+
+<div *ngIf="identity">
+    <div>API claims</div>
+    <ul>
+        <ol *ngFor="let claim of identity">{{claim.type}}: {{claim.value}}</ol>
+    </ul>
+</div>
